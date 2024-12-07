@@ -1,0 +1,39 @@
+[main]
+font=JetBrains Mono:size=12
+icon-theme=Papirus
+icons-enabled=yes
+lines=10
+width=30
+horizontal-pad=20
+vertical-pad=20
+inner-pad=5
+
+[colors]
+background=1a1b26ee
+text=c0caf5ff
+match=7aa2f7ff
+selection=414868ff
+selection-text=c0caf5ff
+border=7aa2f7ff
+
+[border]
+width=2
+radius=8
+
+[dmenu]
+exit-immediately-if-empty=yes
+
+[key-bindings]
+cancel=Escape Control+g
+execute=Return KP_Enter Control+y
+execute-or-next=Tab
+cursor-left=Left Control+b
+cursor-right=Right Control+f
+delete-prev=BackSpace
+delete-prev-word=Control+BackSpace
+delete-next=Delete
+delete-next-word=Control+Delete
+prev=Up Control+p
+next=Down Control+n
+first=Home Control+a
+last=End Control+e
