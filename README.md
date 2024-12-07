@@ -69,16 +69,16 @@ Make sure you have the following applications installed, as needed:
 ### Step 4: Apply the Nord Theme
 
 - **GTK**: Apply the Nord GTK theme which is the Whitesir theme for both GTK3 and GTK4 applications. i would advise you to go to their [repo](https://github.com/vinceliuice/WhiteSur-gtk-theme) and use their install script
-- **Waybar**: waybat config borrowed from [heather](https://github.com/heather7283/dotfiles) Customize Waybar to match the Nord theme. My configuration includes workspace indicators, a timer, Wi-Fi, Bluetooth, mic, and audio level indicators.
+- **hyprpanel**: hyprpanel config, Customize hyprpanel to match the Nord theme. My configuration includes workspace indicators, a timer, Wi-Fi, Bluetooth, mic, and audio level indicators.
 - **Rofi**: Use the custom palette and theme included in the `rofi` and `palletes/rofi` directories.
 - **Kitty**: Configure Kitty terminal with the Nord theme and apply Zsh settings that generate pixel art of Pokémon on launch.
 
 ### Step 5: Custom Scripts and Keybinds
 
-- **Wallpaper Slideshow**: A custom script using `swww-deamon` cycles through a directory of images, applying the Nord color scheme.
+- **Wallpaper Slideshow**: A custom script using `swww-deamon` cycles through a directory of images,(check config/hypr/scripts) applying the Nord color scheme.
 - **Nord wallpapers** : my [repo](https://github.com/Mjoyufull/Nord-wallpapers) for nord themed walls this config uses the norded folders look into the script for more info
 - **Screenshot Script**: A custom script using Hyprpicker allows drawing an arrow on screenshots, opening them in an image editor automatically check .
-- **Dunst Notifications**: Dunst is configured to display notifications in the Nord theme. Screenshots trigger a custom notification, and there's a bind to open recent notifications.
+- **hyprpanel Notifications**: hyprpanel has a wallpaper daemon builtin with a Nord theme. Screenshots trigger a custom notification, and there's a bind to open recent notifications.
 - **Auto-Tiling and Custom Binds**: I’ve set up keybinds for automatic tiling of applications like Discord, Brave Browser, and Steam in specific workstations.
 
 ### Step 6: Fonts
