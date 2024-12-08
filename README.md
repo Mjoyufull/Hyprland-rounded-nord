@@ -102,7 +102,7 @@ https://raw.githubusercontent.com/DiscordStyles/HorizontalServerList/deploy/Hori
 ### Step 7: Import hyprland config
 
 open Hyprland settings with ` ags -t settings-dialog `  and in general click import and import https://github.com/Mjoyufull/Hyprland-Hyprpanel-nord/blob/main/config/hyprpanel_config.json
-into hyprland.
+into hyprpanel.
 
 ## Troubleshooting and Tips
 
